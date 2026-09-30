@@ -32,24 +32,10 @@ const styles = StyleSheet.create({
         justifyContent: "center"
     },
 
-    center: {
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center"
-    },
-
     title: {
         fontSize: 28,
         fontWeight: "bold",
         textAlign: "center",
-        marginBottom: 20
-    },
-
-    image: {
-        width: 120,
-        height: 120,
-        borderRadius: 60,
-        alignSelf: "center",
         marginBottom: 20
     },
 

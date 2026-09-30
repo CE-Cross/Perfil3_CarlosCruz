@@ -4,21 +4,37 @@
     "slug": "Perfil3_CarlosCruz",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Master_Ball.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+        "backgroundColor": "#a20cb6",
+        "foregroundImage": "./assets/Master_Ball.png"
+      },
+      "package": "com.cecrosssteam.Perfil3_CarlosCruz"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/Master_Ball.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/Master_Ball.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#a20cb6"
+        }
+      ],
+      "@react-native-community/datetimepicker",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b7b374d3-d9dc-4e02-b5a2-f8aafa876163"
+      }
     }
   }
 }

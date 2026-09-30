@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const useCustomData = () => {
+const UseCustomData = () => {
 
     const API_URI = "https://fakestoreapi.com/products"
 
@@ -27,4 +27,4 @@ const useCustomData = () => {
     return { apiData, loading };
 }
 
-export default useCustomData;
+export default UseCustomData;
